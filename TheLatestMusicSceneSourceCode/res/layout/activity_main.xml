@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:paddingTop="@dimen/paddingTop_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        android:text="@string/textTitle"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textTitle" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/colorAccent"
+        android:contentDescription="@string/imageOne"
+        android:paddingTop="@dimen/paddingTop_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        app:srcCompat="@drawable/girls" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingTop_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        android:text="@string/buttonOne"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/buttonText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:paddingTop="@dimen/paddingTop_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        android:text="@string/textTitleOne"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textTitle" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="@string/imageTwo"
+        android:paddingTop="@dimen/paddingTop_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        app:srcCompat="@drawable/she" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingBottom_dp"
+        android:paddingBottom="@dimen/paddingBottom_dp"
+        android:text="@string/buttonTwo"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/buttonText"
+        tools:text="@string/buttonTwo" />
+</LinearLayout>
